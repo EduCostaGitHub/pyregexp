@@ -1,0 +1,15 @@
+{
+    "vscode-as-git-mergetool.settingsAssistantOnStartup": false,
+    "pylint.args": [
+        "--errors-only",
+        "--disable=missing-class-docstring",
+        "--disable=missing-function-docstring"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.autoImportCompletions": true,
+    "pylint.importStrategy": "useBundled",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+}
