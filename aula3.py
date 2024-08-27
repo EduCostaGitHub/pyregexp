@@ -43,6 +43,8 @@ print(re.findall(r'jo{1,}ão{1,}',text, flags=re.I))
 print(re.findall(r've{3}m{1,2}',text, flags=re.I))
 
 text2 = "João ama ser amado"
+print(re.findall(r'ama[do]*',text2,flags=re.I))
+print(re.findall(r'ama[do]{0,2}',text2,flags=re.I))
 
 
 
