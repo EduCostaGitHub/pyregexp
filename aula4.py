@@ -12,8 +12,8 @@ text = """
 <p> Phrase 1 </p><p> Phrase 2 </p><p> Phrase 3 </p><div> Phrase 4 </div>
 """
 
-print(re.findall(r'<[dpiv]{1,3}>.*<\/[dpiv]{1,3}>',text)) #greedy
-print(re.findall(r'<[dpiv]{1,3}>.*?<\/[dpiv]{1,3}>',text)) #non greedy
+print(re.findall(r'<[dpiv]{1,3}>.*<\/[dpiv]{1,3}>',text)) #greedy 
+print(re.findall(r'<[dpiv]{1,3}>.*?<\/[dpiv]{1,3}>',text)) #non greedy /lazy
 
 
 
