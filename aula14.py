@@ -5,7 +5,7 @@
 
 import re
 from pprint import pprint
-from xmlrpc.client import TRANSPORT_ERROR
+
 
 string = '''
 Válidos
@@ -59,7 +59,7 @@ while True:
     print(is_float(num))
 
     if is_int_(num):
-        num = int(num)
+        num = int(num) 
         print(f'O Número {num} foi convertido para int')
         continue
 
